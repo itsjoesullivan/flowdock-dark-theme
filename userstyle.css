@@ -1,0 +1,74 @@
+.inbox-panel, #chat, .flow {
+  background: #222 !important;
+}
+
+#tab-bar, #user-menu-toggle{
+  background: #111 !important;
+  border-bottom: solid 1px #444;
+}
+#flow-dropdown-item{
+  background: #111 !important;
+  height: 30px !important;
+}
+.tab-fade-wrapper::after{
+  background-image: none !important;
+}
+
+.toolbar, .inbox-toolbar, .chat-toolbar, .single-view-toolbar{
+  background: #303030 !important;
+  border-bottom: solid 1px #444 !important;
+}
+
+.active .user-avatar, .active .invitation-avata {
+  box-shadow: 0px 0px 4px 1px #3a9ef0 !important;
+}
+
+.chat-message, .comment-message, .action-message, .line-message, .status-message, .file-message, .error-message, .inbox-comment-message, .inbox-file-comment-message, .mention-message, .inbox-message, .info-message, .single-message{
+  background: #222 !important;
+  border-color: #292929 !important;
+  font-family: 'proxima nova' !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+
+.split-resizer {
+  background: #262626;
+  box-shadow: 3px 0 10px rgba(0,0,0,.2);
+  border-left: solid 1px #444;
+  border-right: solid 1px #333;
+}
+
+.chat-message, .comment-message, .action-message, .line-message, .status-message, .file-message, .error-message, .inbox-comment-message, .inbox-file-comment-messag {
+  color: #eee !important;
+}
+
+.action-message, .line-message, .status-message {
+  font-style: italic;
+}
+.action-message .message-author, .line-message .message-author, .status-message .message-author,
+.action-message .content, .line-message .content, .status-message .content{
+  color: #3a9ef0 !important;
+}
+
+.chat-message pre.formatted, .comment-message pre.formatted, .action-message pre.formatted, .line-message pre.formatted, .status-message pre.formatted, .file-message pre.formatted, .error-message pre.formatted, .inbox-comment-message pre.formatted, .inbox-file-comment-message pre.formatted, .mention-message pre.formatted, .inbox-message pre.formatted, .info-message pre.formatted, .single-message pre.formatted {
+  background: #333 !important;
+  color: #ccc;
+  border: none !important;
+}
+
+.message-author { color: #999; }
+.message-author:hover { color: #fff; text-decoration: none !important }
+
+#chat form {
+  background: #303030 !important;
+  border-top: solid 1px #444 !important;
+  box-shadow: 0 -5px 10px rgba(0,0,0,.2);
+}
+
+.toolbar-button{
+  font-family: 'proxima nova' !important;
+  font-weight: 300 !important;
+  border: solid 1px #393939 !important;
+}
+
+/* EVERYTHING IS IMPORTANT */
